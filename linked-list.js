@@ -1,7 +1,7 @@
 // @ts-check
 import { Node } from "./models/linked-list-models";
 
-function defaultEquals(a, b) {
+export function defaultEquals(a, b) {
   return a === b;
 }
 
